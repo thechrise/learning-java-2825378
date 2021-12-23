@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         String question = "What is the largest planet in our solar system?";
         String choiceOne = "earth";
         String choiceTwo = "jupiter";
         String choiceThree = "saturn";
 
-        String correctAnswer = choiceThree;
+        String correctAnswer = choiceTwo;
 
         // Write a print statement asking the question
         System.out.println(question);
